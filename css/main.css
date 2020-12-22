@@ -137,6 +137,14 @@ p {
 address {
   font-style: normal;
 }
+
+img { 
+	width: 100%;
+}
+ 
+figure {
+  margin: 0;
+}
  
 
  /* -------------------- Base Header - Footer Styles -------------------- */
@@ -173,13 +181,21 @@ address {
    align-items: center;
    flex-flow: row wrap;
    width: 60%;
- }
+}
+
+ header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
  header nav ul {
    display: flex;
    justify-content: space-around;
    width: 100%;
- }
+}
 
  header nav ul li {
   font-size: 1.125em;
@@ -190,7 +206,7 @@ address {
    width: 100%;
    height: 1px;
    margin: 10px 0 20px 0;
- }
+}
 
  /*Footer Styles*/
 
@@ -233,6 +249,10 @@ footer .copyright {
 /*Hero Area*/
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -284,6 +304,9 @@ input[type=button] {
 /*Features*/
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -317,6 +340,7 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
 }
+
 
 .reviews h2 {
   margin-bottom: 40px;
@@ -577,6 +601,7 @@ input[type=button] {
       margin: 0;
   }
 
+    .reviews article figure,
     .reviews article div {
       width: 49%;
     }
@@ -584,7 +609,7 @@ input[type=button] {
     /* Footer */
 
     .footer .content-wrapper {
-      width: 49%;
+      width: 65%;
       margin: 100px 0;
     }
 
