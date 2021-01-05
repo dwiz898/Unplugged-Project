@@ -195,6 +195,7 @@ figure {
    display: flex;
    justify-content: space-around;
    width: 100%;
+   padding: 0;
 }
 
  header nav ul li {
@@ -651,7 +652,6 @@ input[type=button] {
     footer .footer-content {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       flex-direction: row;
     }
 
